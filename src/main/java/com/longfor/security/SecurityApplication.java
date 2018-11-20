@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @MapperScan("com.longfor.security.daversiono")
 @EnableAspectJAutoProxy
 public class SecurityApplication {
-    //启动项目
+    //开始启动项目
     public static void main(String[] args) {
         SpringApplication.run(SecurityApplication.class, args);
     }
