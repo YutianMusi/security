@@ -10,6 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @EnableAspectJAutoProxy
 public class SecurityApplication {
     //开始启动项目
+    // 做一个提示
     public static void main(String[] args) {
         SpringApplication.run(SecurityApplication.class, args);
     }
